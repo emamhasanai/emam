@@ -17,7 +17,7 @@ if (toggle && nav) {
 }
 
 const revealItems = document.querySelectorAll(
-  ".section, .timeline-item, .project-card, .skill-groups article, .publication-card, .conference-panel article, .award-grid article, .education, .contact-card"
+  ".timeline-item, .project-card, .skill-groups article, .publication-card, .conference-panel article, .award-grid article, .education, .contact-card"
 );
 
 if ("IntersectionObserver" in window && revealItems.length) {
@@ -37,7 +37,39 @@ if ("IntersectionObserver" in window && revealItems.length) {
 
   revealItems.forEach((item, index) => {
     item.classList.add("reveal-item");
-    item.style.transitionDelay = `${Math.min(index % 4, 3) * 55}ms`;
     revealObserver.observe(item);
   });
+
+  if (window.location.hash) {
+    const target = document.querySelector(window.location.hash);
+
+    if (target) {
+      target.classList.add("is-visible");
+      target
+        .querySelectorAll(".reveal-item")
+        .forEach((item) => item.classList.add("is-visible"));
+    }
+  }
 }
+
+const scrollToHashTarget = () => {
+  if (!window.location.hash) {
+    return;
+  }
+
+  const target = document.querySelector(window.location.hash);
+
+  if (!target) {
+    return;
+  }
+
+  const headerOffset = 96;
+  const targetTop = target.getBoundingClientRect().top + window.scrollY - headerOffset;
+  window.scrollTo({ top: Math.max(targetTop, 0), behavior: "auto" });
+};
+
+window.addEventListener("load", () => {
+  requestAnimationFrame(scrollToHashTarget);
+});
+
+window.addEventListener("hashchange", scrollToHashTarget);
