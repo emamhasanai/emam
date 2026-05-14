@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="ThreatScan website security research visual">
+  <rect width="900" height="560" fill="#10231f"/>
+  <rect x="54" y="58" width="792" height="444" rx="18" fill="#17342f" stroke="#2a6358"/>
+  <rect x="108" y="126" width="308" height="230" rx="12" fill="#f7f4ee"/>
+  <rect x="134" y="160" width="206" height="18" rx="9" fill="#0f7a63"/>
+  <rect x="134" y="206" width="238" height="14" rx="7" fill="#b68b2d"/>
+  <rect x="134" y="244" width="188" height="14" rx="7" fill="#cc5b46"/>
+  <path d="M548 163l118 54v88c0 77-48 121-118 149-70-28-118-72-118-149v-88z" fill="#0f7a63"/>
+  <path d="M548 196v218" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M472 286h152" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+  <g fill="#cc5b46">
+    <circle cx="720" cy="170" r="16"/>
+    <circle cx="742" cy="308" r="16"/>
+    <circle cx="668" cy="418" r="16"/>
+  </g>
+  <text x="108" y="422" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#fff">ThreatScan</text>
+  <text x="108" y="468" font-family="Arial, sans-serif" font-size="24" fill="#cbd8d4">Predictive website security</text>
+</svg>

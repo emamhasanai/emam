@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Improved K-Means clustering research visual">
+  <rect width="900" height="560" fill="#f7f4ee"/>
+  <rect x="54" y="58" width="792" height="444" rx="18" fill="#fff" stroke="#ddd6c9"/>
+  <g>
+    <circle cx="216" cy="202" r="18" fill="#0f7a63"/>
+    <circle cx="268" cy="178" r="15" fill="#0f7a63"/>
+    <circle cx="302" cy="234" r="20" fill="#0f7a63"/>
+    <circle cx="238" cy="280" r="17" fill="#0f7a63"/>
+    <circle cx="618" cy="210" r="18" fill="#cc5b46"/>
+    <circle cx="670" cy="250" r="15" fill="#cc5b46"/>
+    <circle cx="594" cy="296" r="20" fill="#cc5b46"/>
+    <circle cx="704" cy="324" r="17" fill="#cc5b46"/>
+    <circle cx="420" cy="340" r="18" fill="#b68b2d"/>
+    <circle cx="470" cy="382" r="15" fill="#b68b2d"/>
+    <circle cx="516" cy="330" r="20" fill="#b68b2d"/>
+  </g>
+  <path d="M272 224l148 116m148-28l-96 40m-204-98l-30 26m380-70l52 40" stroke="#62706b" stroke-width="5" opacity=".45"/>
+  <g fill="#14211f">
+    <circle cx="272" cy="224" r="12"/>
+    <circle cx="620" cy="272" r="12"/>
+    <circle cx="470" cy="350" r="12"/>
+  </g>
+  <text x="92" y="124" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#14211f">Improved K-Means</text>
+  <text x="92" y="168" font-family="Arial, sans-serif" font-size="23" fill="#62706b">Faster data segmentation</text>
+</svg>

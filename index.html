@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Emam Hasan, Machine Learning Engineer specializing in AI, NLP, RAG systems, computer vision, and applied machine learning.">
+  <title>Emam Hasan | Machine Learning Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Emam Hasan home">
+      <span class="brand-mark">EH</span>
+      <span>Emam Hasan</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#publications">Publications</a>
+      <a href="#awards">Awards</a>
+      <a class="nav-cta" href="assets/Emam-Hasan-CV.pdf" target="_blank" rel="noreferrer">CV</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">Machine Learning Engineer | NLP | Computer Vision | RAG Systems</p>
+        <h1>Building practical AI systems for real users, research, and production platforms.</h1>
+        <p class="hero-text">
+          I am Emam Hasan, a Bangladeshi Machine Learning Engineer at Nascenia focused on LLM applications,
+          Bengali NLP, semantic search, RAG pipelines, model deployment, and computer vision.
+        </p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button ghost" href="assets/Emam-Hasan-CV.pdf" target="_blank" rel="noreferrer">Download CV</a>
+        </div>
+      </div>
+
+      <aside class="profile-panel" aria-label="Profile summary">
+        <img class="profile-photo" src="assets/profile.jpg" alt="Portrait of Emam Hasan">
+        <div class="profile-info">
+          <h2>Emam Hasan</h2>
+          <p>Machine Learning Engineer at Nascenia</p>
+          <ul class="contact-list">
+            <li><a href="mailto:emamhasan9203@gmail.com">emamhasan9203@gmail.com</a></li>
+            <li><a href="tel:+8801863703256">+880 1863 703256</a></li>
+            <li>Dhaka, Bangladesh</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <section id="work" class="section split">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2>Production AI and research-backed engineering.</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">Jul 2024 - Present</div>
+          <div class="timeline-content">
+            <h3>Machine Learning Engineer</h3>
+            <p class="company">Nascenia, Lalmatia, Dhaka</p>
+            <ul>
+              <li>Developed RAG chatbot backend systems with LangChain, ChromaDB, Redis, LLaMA, Bangla NLU, and embedding models.</li>
+              <li>Fine-tuned BanglaT5 on 2.5M Bengali-English sentence pairs using Hugging Face and OpenNMT workflows.</li>
+              <li>Deployed LLM, embedding, and translation models on GPU servers with Dockerized Python REST APIs.</li>
+              <li>Built semantic search using embeddings, re-ranking, and prompt engineering for high-quality course and topic retrieval.</li>
+              <li>Integrated AI chatbots into Messenger and developed automated RAG evaluation tests for version tracking.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading wide">
+        <p class="eyebrow">Selected Projects</p>
+        <h2>AI systems, research tools, and full-stack product work.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-meta">Industry AI | Nascenia</div>
+          <h3>RAG Chatbot Platforms</h3>
+          <p>
+            Built chatbot systems for MyGov, Muktopaath, Teachers' Portal, and ISEC with multilingual NLP,
+            semantic search, knowledge-base scraping, model deployment, and production evaluation workflows.
+          </p>
+          <div class="platform-grid" aria-label="Public platform links">
+            <a class="platform-tile" href="https://www.mygov.bd/" target="_blank" rel="noreferrer">
+              <img src="assets/project-mygov.png" alt="MyGov public platform screenshot">
+              <span>MyGov</span>
+            </a>
+            <a class="platform-tile" href="https://muktopaath.gov.bd/" target="_blank" rel="noreferrer">
+              <img src="assets/project-muktopaath.png" alt="Muktopaath public platform screenshot">
+              <span>Muktopaath</span>
+            </a>
+            <a class="platform-tile" href="https://www.teachers.gov.bd/" target="_blank" rel="noreferrer">
+              <img src="assets/project-teachers-portal.png" alt="Teachers' Portal public platform screenshot">
+              <span>Teachers' Portal</span>
+            </a>
+            <a class="platform-tile" href="https://play.google.com/store/apps/details?id=com.a2i.isec" target="_blank" rel="noreferrer">
+              <img src="assets/project-isec.png" alt="ISEC Google Play app listing screenshot">
+              <span>ISEC</span>
+            </a>
+          </div>
+          <div class="tags">
+            <span>LangChain</span><span>ChromaDB</span><span>Redis</span><span>LLaMA</span><span>Docker</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img class="project-preview" src="assets/project-vehicle-detection.gif" alt="Animated preview of YOLO vehicle detection output">
+          <div class="project-meta">Personal Project | Jan 2026</div>
+          <h3>Vehicle Detector</h3>
+          <p>
+            Trained a lightweight YOLOv26n model on a custom labeled dataset for 11 vehicle classes,
+            converted it to ONNX, and deployed it on Android for real-time edge inference.
+          </p>
+          <div class="project-foot">
+            <span>Python, YOLO, ONNX Runtime</span>
+            <a href="https://github.com/foyez-hub/vehicle-detection" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img class="project-preview" src="assets/project-newstok.gif" alt="Animated concept preview for NewsTok article-to-reel workflow">
+          <div class="project-meta">Team Project | Jun-Sep 2024</div>
+          <h3>NewsTok</h3>
+          <p>
+            Built a TikTok-style news platform that transforms scraped articles into AI-generated short reels,
+            using a dual-server architecture with secure admin and user workflows.
+          </p>
+          <div class="project-foot">
+            <span>Spring Boot, Flask, Selenium, JWT</span>
+            <a href="https://github.com/PaleBlueDot-repo" target="_blank" rel="noreferrer">GitHub Org</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img class="project-preview" src="assets/project-cinephiles.gif" alt="Animated concept preview for the Cinephiles movie platform">
+          <div class="project-meta">Team Lead | Jan-Feb 2024</div>
+          <h3>Cinephiles</h3>
+          <p>
+            Led a 5-person team building a full-stack movie platform with recommendation features,
+            watch parties, social interactions, code review, and task coordination.
+          </p>
+          <div class="project-foot">
+            <span>Laravel, PHP, JavaScript, MySQL</span>
+            <a href="https://github.com/emamhasanai/cinephiles_" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section split skills-section">
+      <div class="section-heading">
+        <p class="eyebrow">AI/ML Skills</p>
+        <h2>Strongest in NLP, RAG, model deployment, and applied machine learning.</h2>
+        <p>
+          My work combines research implementation, backend engineering, and production deployment for intelligent systems.
+        </p>
+      </div>
+      <div class="skill-groups">
+        <article>
+          <h3>Natural Language Processing</h3>
+          <p>Hugging Face, Transformers, LangChain, embeddings, RAG pipelines, Bangla NLU, knowledge distillation.</p>
+        </article>
+        <article>
+          <h3>Machine Learning</h3>
+          <p>PyTorch, NumPy, Pandas, Scikit-learn, vector databases, classification, clustering, model evaluation.</p>
+        </article>
+        <article>
+          <h3>Computer Vision</h3>
+          <p>Deep learning for image analysis, multi-class classification, YOLO, ONNX, inference optimization.</p>
+        </article>
+        <article>
+          <h3>Engineering Stack</h3>
+          <p>Python, Java, C++, JavaScript, SQL, Docker, Flask, Selenium, Playwright, BeautifulSoup, REST APIs.</p>
+        </article>
+        <article>
+          <h3>Databases and Infrastructure</h3>
+          <p>MySQL, ChromaDB, Redis, AWS, GPU server deployment, containerized backend services.</p>
+        </article>
+        <article>
+          <h3>Professional Strengths</h3>
+          <p>Problem solving, team collaboration, communication, task ownership, research-to-product execution.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="section-heading wide">
+        <p class="eyebrow">Research</p>
+        <h2>Research across AI, security, computer vision, and biomedical image analysis.</h2>
+        <div class="research-profile-links" aria-label="Research profile links">
+          <a class="button primary" href="https://scholar.google.com/citations?user=FxZhr4MAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a class="button ghost" href="https://www.researchgate.net/profile/Emam-Hasan-6" target="_blank" rel="noreferrer">ResearchGate</a>
+        </div>
+      </div>
+      <div class="publication-list">
+        <article class="publication-card first-author">
+          <img src="assets/paper-oct-methodology.png" alt="OCT image analysis methodology diagram from the paper">
+          <div>
+            <div class="publication-meta"><span>2026</span><span>First Author</span></div>
+            <h3>Deep Learning-Enhanced OCT Image Analysis Pipeline: Integrating Denoising, Super-Resolution, and Fuzzy Logic for Improved Clinical Diagnostics</h3>
+            <p>ICDSAIA 2025, Springer CCIS. Authors: Emam Hasan, Emon Karmoker.</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.1007/978-3-032-11335-1_19" target="_blank" rel="noreferrer">Official DOI</a>
+              <a href="https://www.researchgate.net/publication/399373914_Deep_Learning-Enhanced_OCT_Image_Analysis_Pipeline_Integrating_Denoising_Super-Resolution_and_Fuzzy_Logic_for_Improved_Clinical_Diagnostics" target="_blank" rel="noreferrer">ResearchGate PDF</a>
+            </div>
+          </div>
+        </article>
+        <article class="publication-card">
+          <img src="assets/paper-thumb-cellregnet.svg" alt="CellRegNet protein function visual thumbnail">
+          <div>
+            <div class="publication-meta"><span>2025</span><span>Co-author</span></div>
+            <h3>CellRegNet: Deep Learning for Protein Function in Cell Cycles</h3>
+            <p>Bangladesh Research Foundation Journal, Vol. 9, No. 1, pp. 151-163.</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.71386/BRFJ.9.1.2025.151-163" target="_blank" rel="noreferrer">Official DOI</a>
+            </div>
+          </div>
+        </article>
+        <article class="publication-card first-author">
+          <img src="assets/paper-thumb-threatscan.svg" alt="ThreatScan security research visual thumbnail">
+          <div>
+            <div class="publication-meta"><span>2024</span><span>First Author</span></div>
+            <h3>ThreatScan: Strengthening Website Security with Predictive Analytics Using Machine Learning Model</h3>
+            <p>IEEE Region 10 Symposium (TENSYMP). Authors include Emam Hasan, Hridoy Das, Nur Islam Shourav, and Ramisa Hossain.</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.1109/TENSYMP61132.2024.10752190" target="_blank" rel="noreferrer">Official DOI</a>
+              <a href="https://www.researchgate.net/publication/385952359_ThreatScan-Strengthening_Website_Security_with_Predictive_Analytics_Using_Machine_Learning_Model" target="_blank" rel="noreferrer">ResearchGate PDF</a>
+            </div>
+          </div>
+        </article>
+        <article class="publication-card">
+          <img src="assets/paper-thumb-hair.svg" alt="Hair fall disease classification research visual thumbnail">
+          <div>
+            <div class="publication-meta"><span>2024</span><span>Co-author</span></div>
+            <h3>A Novel Ensemble Deep Learning Approach for Robust Multi-class Hair Fall Disease Classification</h3>
+            <p>IEEE Region 10 Symposium (TENSYMP). Hridoy Das is listed first; Emam Hasan is a co-author.</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.1109/TENSYMP61132.2024.10752204" target="_blank" rel="noreferrer">Official DOI</a>
+              <a href="https://www.researchgate.net/publication/385959206_A_Novel_Ensemble_Deep_Learning_Approach_for_Robust_Multi-class_Hair_Fall_Disease_Classification" target="_blank" rel="noreferrer">ResearchGate PDF</a>
+            </div>
+          </div>
+        </article>
+        <article class="publication-card first-author">
+          <img src="assets/paper-thumb-kmeans.svg" alt="Improved K-Means clustering research visual thumbnail">
+          <div>
+            <div class="publication-meta"><span>2023</span><span>First Author</span></div>
+            <h3>Data Segmentation with Improved K-Means Clustering Algorithm</h3>
+            <p>26th International Conference on Computer and Information Technology (ICCIT), IEEE.</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.1109/ICCIT60459.2023.10441078" target="_blank" rel="noreferrer">Official DOI</a>
+              <a href="https://www.researchgate.net/publication/378534115_Data_Segmentation_with_Improved_K-Means_Clustering_Algorithm" target="_blank" rel="noreferrer">ResearchGate PDF</a>
+            </div>
+          </div>
+        </article>
+        <article class="publication-card">
+          <img src="assets/paper-thumb-retinopathy.svg" alt="Diabetic retinopathy research visual thumbnail">
+          <div>
+            <div class="publication-meta"><span>2023</span><span>Co-author</span></div>
+            <h3>Toward Lightweight Diabetic Retinopathy Classification: A Knowledge Distillation Approach for Resource-Constrained Settings</h3>
+            <p>Applied Sciences, MDPI. Published 16 November 2023.</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.3390/app132212397" target="_blank" rel="noreferrer">Official DOI</a>
+              <a href="https://www.researchgate.net/publication/375714082_Toward_Lightweight_Diabetic_Retinopathy_Classification_A_Knowledge_Distillation_Approach_for_Resource-Constrained_Settings" target="_blank" rel="noreferrer">ResearchGate PDF</a>
+            </div>
+          </div>
+        </article>
+        <article class="publication-card">
+          <img src="assets/paper-thumb-ewastenet.svg" alt="EWasteNet e-waste classification research visual thumbnail">
+          <div>
+            <div class="publication-meta"><span>2023</span><span>Co-author</span></div>
+            <h3>EWasteNet: A Two-Stream Data Efficient Image Transformer Approach for E-Waste Classification</h3>
+            <p>IEEE 8th International Conference on Software Engineering and Computer Systems (ICSECS), pp. 435-440.</p>
+            <div class="paper-links">
+              <a href="https://doi.org/10.1109/ICSECS58457.2023.10256321" target="_blank" rel="noreferrer">Official DOI</a>
+              <a href="https://www.researchgate.net/publication/374224118_EWasteNet_A_Two-Stream_Data_Efficient_Image_Transformer_Approach_for_E-Waste_Classification" target="_blank" rel="noreferrer">ResearchGate PDF</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="conferences" class="section split">
+      <div class="section-heading">
+        <p class="eyebrow">Conferences</p>
+        <h2>Research presented in online and onsite academic venues.</h2>
+      </div>
+      <div class="conference-showcase">
+        <article class="presentation-feature">
+          <img src="assets/icdsaia-oct-presentation.jpeg" alt="Emam Hasan presenting at ICDSAIA 2025">
+          <div>
+            <p class="eyebrow">Onsite Presentation</p>
+            <h3>ICDSAIA 2025 Paper Presentation</h3>
+            <p>
+              Presented the paper "Deep Learning-Enhanced OCT Image Analysis Pipeline: Integrating Denoising,
+              Super-Resolution, and Fuzzy Logic for Improved Clinical Diagnostics" at the International Conference
+              on Data Science, AI and Applications.
+            </p>
+          </div>
+        </article>
+        <div class="certificate-grid" aria-label="Conference presentation certificates">
+          <article class="certificate-card">
+            <img src="assets/icdsaia-2025-certificate.jpg" alt="ICDSAIA 2025 paper presentation certificate for Emam Hasan">
+            <div>
+              <h3>ICDSAIA 2025 Certificate</h3>
+              <p>Certificate evidence for the OCT image analysis paper presentation.</p>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <img src="assets/cert-ieee-tensymp-2024.jpg" alt="IEEE TENSYMP Conference 2024 paper presentation certificate for Emam Hasan">
+            <div>
+              <h3>IEEE TENSYMP 2024 Certificate</h3>
+              <p>Certificate evidence for the ThreatScan paper presentation.</p>
+            </div>
+          </article>
+        </div>
+        <div class="conference-panel">
+        <article>
+          <span>01</span>
+          <div>
+            <h3>International Conference on Data Science, AI and Applications (ICDSAIA)</h3>
+            <p>Presented the OCT image analysis pipeline research focused on denoising, super-resolution, and fuzzy logic for clinical diagnostics.</p>
+          </div>
+        </article>
+        <article>
+          <span>02</span>
+          <div>
+            <h3>IEEE Region 10 Symposium (TENSYMP)</h3>
+            <p>Presented machine learning research connected to website security and computer vision classification.</p>
+          </div>
+        </article>
+        <article>
+          <span>03</span>
+          <div>
+            <h3>International Conference on Computer and Information Technology (ICCIT)</h3>
+            <p>Presented research on improved K-Means clustering and data segmentation.</p>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="awards" class="section">
+      <div class="section-heading wide">
+        <p class="eyebrow">Honours and Awards</p>
+        <h2>Recognition in programming, AI contests, project showcases, and research.</h2>
+      </div>
+      <article class="award-feature">
+        <img src="assets/ai-contest-champion-artificial-minds.jpg" alt="UIU Intra University AI Contest Champion graphic for team Artificial_Minds">
+        <div>
+          <p class="eyebrow">AI Contest Champion</p>
+          <h3>UIU Intra University AI Contest</h3>
+          <p>
+            Champion team Artificial_Minds with Emam Hasan and Muminul Islam, organized by UIU App Forum
+            and the Department of Computer Science and Engineering at United International University.
+          </p>
+          <a class="text-link" href="https://www.facebook.com/photo.php?fbid=495183286063338&set=pb.100067150115072.-2207520000&type=3" target="_blank" rel="noreferrer">View Facebook post</a>
+        </div>
+      </article>
+      <article class="award-feature">
+        <img src="assets/coders-combat-3.png" alt="UIU Coders' Combat 3.0 winners and organizers at the prize giving ceremony">
+        <div>
+          <p class="eyebrow">Featured Recognition</p>
+          <h3>UIU Coders' Combat 3.0</h3>
+          <p>
+            Secured 4th place among 150 UIU programmers in the intra-university programming contest organized by UIU Computer Club.
+            The final contest and prize giving ceremony were held at UIU campus and covered by New Age on 2 August 2022.
+          </p>
+          <a class="text-link" href="https://www.newagebd.net/article/177489/index.php" target="_blank" rel="noreferrer">Read New Age coverage</a>
+        </div>
+      </article>
+      <div class="award-grid">
+        <article>
+          <span>2024</span>
+          <h3>National Collegiate Programming Contest</h3>
+          <p>Finalist at Jahangirnagar University.</p>
+        </article>
+        <article>
+          <span>2023</span>
+          <h3>Research Grant</h3>
+          <p>Received a 2,500 USD grant from the Institute of Advanced Research, United International University.</p>
+        </article>
+        <article>
+          <span>2023</span>
+          <h3>UIU CSE Project Show</h3>
+          <p>2nd Runner-up in Microprocessors and Micro-controllers Lab and 3rd Runner-up in System Analysis and Design Lab.</p>
+        </article>
+        <article>
+          <span>2022</span>
+          <h3>UIU Intra University AI Contest</h3>
+          <p>Champion as team Artificial_Minds.</p>
+        </article>
+        <article>
+          <span>2022</span>
+          <h3>UIU Coders' Combat 3.0</h3>
+          <p>4th place among 150 UIU programmers.</p>
+        </article>
+      </div>
+      <div class="recognition-section">
+        <p class="eyebrow">Project Show Recognition</p>
+        <h3>UIU CSE Project Show team achievements</h3>
+        <div class="recognition-grid">
+          <a class="recognition-card" href="assets/cse-project-show-microsonic.jpg" target="_blank" rel="noreferrer">
+            <img src="assets/cse-project-show-microsonic.jpg" alt="CSE Project Show Team Microsonic 2nd Runner-up poster">
+            <span>Team Microsonic</span>
+            <strong>2nd Runner-up, Microprocessors & Micro-controllers Lab</strong>
+          </a>
+          <a class="recognition-card" href="assets/cse-project-show-system-analysis-design.jpg" target="_blank" rel="noreferrer">
+            <img src="assets/cse-project-show-system-analysis-design.jpg" alt="CSE Project Show Team Pentagon System Analysis and Design Lab poster">
+            <span>Team Pentagon</span>
+            <strong>System Analysis & Design Lab Recognition</strong>
+          </a>
+        </div>
+      </div>
+      <div class="credential-section">
+        <p class="eyebrow">Certificates</p>
+        <h3>Contest, project show, and programming credentials</h3>
+        <div class="credential-grid">
+          <a class="credential-card" href="assets/cert-uiu-ai-contest-champion.jpg" target="_blank" rel="noreferrer">
+            <img src="assets/cert-uiu-ai-contest-champion.jpg" alt="UIU Intra University AI Contest Champion certificate">
+            <span>UIU Intra University AI Contest</span>
+            <strong>Champion, Team Artificial_Minds</strong>
+          </a>
+          <a class="credential-card" href="assets/cert-microprocessors-project-show-3rd.jpg" target="_blank" rel="noreferrer">
+            <img src="assets/cert-microprocessors-project-show-3rd.jpg" alt="CSE Project Show Microprocessors Lab 2nd Runner-up certificate">
+            <span>CSE Project Show</span>
+            <strong>Microprocessors Lab, 2nd Runner-up</strong>
+          </a>
+          <a class="credential-card" href="assets/cert-system-design-project-show-4th.jpg" target="_blank" rel="noreferrer">
+            <img src="assets/cert-system-design-project-show-4th.jpg" alt="CSE Project Show System Analysis and Design Lab recognition certificate">
+            <span>CSE Project Show</span>
+            <strong>System Analysis & Design Lab Recognition</strong>
+          </a>
+          <a class="credential-card" href="assets/cert-uiu-iupc.jpg" target="_blank" rel="noreferrer">
+            <img src="assets/cert-uiu-iupc.jpg" alt="UIU IUPC contest certificate">
+            <span>Programming Contest</span>
+            <strong>UIU IUPC Contest</strong>
+          </a>
+          <a class="credential-card" href="assets/cert-icpc-preli.jpg" target="_blank" rel="noreferrer">
+            <img src="assets/cert-icpc-preli.jpg" alt="ICPC preliminary contest certificate">
+            <span>Programming Contest</span>
+            <strong>ICPC Preliminary Contest</strong>
+          </a>
+          <a class="credential-card" href="assets/cert-uap-iucpc.jpg" target="_blank" rel="noreferrer">
+            <img src="assets/cert-uap-iucpc.jpg" alt="UAP IUCPC contest certificate">
+            <span>Programming Contest</span>
+            <strong>UAP IUCPC Contest</strong>
+          </a>
+          <a class="credential-card" href="assets/cert-bubt-programming-camp.jpg" target="_blank" rel="noreferrer">
+            <img src="assets/cert-bubt-programming-camp.jpg" alt="BUBT programming camp certificate">
+            <span>Programming Training</span>
+            <strong>BUBT Programming Camp</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-contact">
+      <div class="education">
+        <img class="education-photo" src="assets/graduation-uiu-convocation.jpeg" alt="Emam Hasan receiving his graduation certificate at United International University convocation">
+        <p class="eyebrow">Education</p>
+        <h2>B.Sc. in Computer Science and Engineering</h2>
+        <p>United International University, Dhaka, Bangladesh</p>
+        <p>CGPA: 3.57 / 4.00 | 137 credits | Thesis on Bangla-Chittagonian low-resource machine translation.</p>
+        <div class="coursework">
+          <h3>Relevant AI/ML Coursework</h3>
+          <div class="course-list">
+            <span>Artificial Intelligence</span>
+            <span>Artificial Intelligence Laboratory</span>
+            <span>Machine Learning</span>
+            <span>Digital Image Processing</span>
+            <span>Introduction to Bioinformatics</span>
+            <span>Probability and Statistics</span>
+            <span>Calculus and Linear Algebra</span>
+            <span>Data Structures and Algorithms I-II</span>
+            <span>Theory of Computation</span>
+            <span>Computer Graphics</span>
+            <span>Computer Security</span>
+            <span>Database Management Systems</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-card">
+        <h2>Let's connect</h2>
+        <p>Open to AI/ML roles, research collaboration, and production NLP or computer vision projects.</p>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:emamhasan9203@gmail.com">Email Me</a>
+          <a class="button ghost" href="https://github.com/emamhasanai" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button ghost" href="https://www.linkedin.com/in/emam-hasan302" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button ghost" href="https://scholar.google.com/citations?user=FxZhr4MAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a class="button ghost" href="https://www.researchgate.net/profile/Emam-Hasan-6" target="_blank" rel="noreferrer">ResearchGate</a>
+          <a class="button ghost" href="https://www.kaggle.com/emammame" target="_blank" rel="noreferrer">Kaggle</a>
+          <a class="button ghost" href="https://huggingface.co/foyezHasan" target="_blank" rel="noreferrer">Hugging Face</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Emam Hasan. Machine Learning Engineer, Dhaka, Bangladesh.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

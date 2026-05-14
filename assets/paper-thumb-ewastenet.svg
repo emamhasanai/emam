@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="EWasteNet e-waste classification research visual">
+  <rect width="900" height="560" fill="#f7f4ee"/>
+  <rect x="54" y="58" width="792" height="444" rx="18" fill="#fff" stroke="#ddd6c9"/>
+  <g transform="translate(135 132)">
+    <rect x="0" y="55" width="150" height="96" rx="10" fill="#10231f"/>
+    <rect x="22" y="76" width="106" height="54" rx="4" fill="#0f7a63"/>
+    <rect x="198" y="0" width="122" height="212" rx="18" fill="#cc5b46"/>
+    <rect x="220" y="24" width="78" height="138" rx="6" fill="#f7f4ee"/>
+    <rect x="388" y="42" width="156" height="124" rx="12" fill="#b68b2d"/>
+    <circle cx="466" cy="104" r="36" fill="#fff"/>
+    <path d="M604 74h130v92H604z" fill="#0f7a63"/>
+    <path d="M628 166h82" stroke="#10231f" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <path d="M190 405h520" stroke="#ddd6c9" stroke-width="18" stroke-linecap="round"/>
+  <path d="M236 405h340" stroke="#0f7a63" stroke-width="18" stroke-linecap="round"/>
+  <text x="92" y="112" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#14211f">EWasteNet</text>
+  <text x="92" y="156" font-family="Arial, sans-serif" font-size="23" fill="#62706b">Two-stream image transformer classification</text>
+</svg>

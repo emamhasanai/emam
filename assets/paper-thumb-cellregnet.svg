@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="CellRegNet protein function research visual">
+  <rect width="900" height="560" fill="#f7f4ee"/>
+  <rect x="48" y="48" width="804" height="464" rx="18" fill="#fff" stroke="#ddd6c9"/>
+  <g fill="none" stroke="#0f7a63" stroke-width="9" stroke-linecap="round">
+    <path d="M178 375c90-170 205-170 292 0s210 170 300 0"/>
+    <path d="M178 185c90 170 205 170 292 0s210-170 300 0"/>
+  </g>
+  <g fill="#cc5b46">
+    <circle cx="236" cy="278" r="24"/>
+    <circle cx="358" cy="236" r="24"/>
+    <circle cx="480" cy="280" r="24"/>
+    <circle cx="602" cy="324" r="24"/>
+    <circle cx="724" cy="282" r="24"/>
+  </g>
+  <text x="84" y="105" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#14211f">CellRegNet</text>
+  <text x="84" y="152" font-family="Arial, sans-serif" font-size="24" fill="#62706b">Deep learning for protein function</text>
+</svg>
